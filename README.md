@@ -27,9 +27,10 @@ automatically optimize and load Inter, a custom Google Font.
 
 #### Changes:
 
-- Switched from CSS to SCSS
-- Added Prettier + ESLint pre-commit hook - `lint-staged`
+- Switched from CSS to SCSS - `sass`
+- Added `prettier` + `eslint` pre-commit hook - `husky` `lint-staged`
 - Enforced conventional commits - `commitlint`
+- Included `zustand` for simple state management
 
 ## Learn More
 
